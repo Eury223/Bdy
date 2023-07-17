@@ -65,6 +65,19 @@
       window.location.href = instagramURL;
     }
   </script>
+
+
+<button onclick="redirectToTxtFile()">Redirect to .txt File</button>
+
+  <script>
+    function redirectToTxtFile() {
+      var githubUsername = "eury223";
+      var repositoryName = "Bdy";
+      var txtFilePath = "MUWAH.txt";
+      var url = "https://raw.githubusercontent.com/" + githubUsername + "/" + repositoryName + "/main/" + txtFilePath;
+      window.location.href = url;
+    }
+  </script>
   </div>
 </body>
 </html>
