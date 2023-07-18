@@ -2,12 +2,15 @@
 <html>
 <head>
   <title>Secret Code Login</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <label for="secretCode">Enter Secret Code: </label>
-  <input type="password" id="secretCode">
-  <button onclick="checkSecretCode()">Submit</button>
-
+<div class="container">
+    <h1>Secret Code Login</h1>
+    <label for="secretCode">Enter Secret Code:</label>
+    <input type="password" id="secretCode">
+    <button onclick="checkSecretCode()">Submit</button>
+</div>
   <script>
     function checkSecretCode() {
       const enteredCode = document.getElementById('secretCode').value;
