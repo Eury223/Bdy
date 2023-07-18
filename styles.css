@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 50; /* Increase the max-width to make the container larger */
+  max-width: 100%; /* Increase the max-width to make the container larger */
   padding: 20px;
   border-radius: 10px;
   background-color: #fff;
