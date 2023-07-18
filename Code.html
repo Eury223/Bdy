@@ -19,7 +19,7 @@
         .then(response => response.text())
         .then(secretCode => {
           if (enteredCode === secretCode.trim()) {
-            // Redirect to the next page if the code is correct
+            // Redirect to the next page if thecode is correct
             window.location.href = 'hbdv1.html';
           } else {
             alert('Incorrect secret code. Please try again.');
