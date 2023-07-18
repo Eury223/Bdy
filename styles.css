@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-  max-width: 100%; /* Increase the max-width to make the container larger */
+  width: 90%; /* Adjust the width to fit the content properly on Android devices */
+  max-width: 400px;
   padding: 20px;
   border-radius: 10px;
   background-color: #fff;
@@ -53,3 +54,14 @@ button {
 button:hover {
   background-color: #2184cc;
 }
+
+/* Media query for screens with a maximum width of 600px (adjust as needed) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%; /* Adjust the width for smaller screens */
+    max-width: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+￼Enter
