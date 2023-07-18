@@ -9,7 +9,7 @@ body {
   background-color: #242424;
 }
 
-container {
+.container {
   max-width: 1000px;
   padding: 40ppx;
   border-radius: 20px;
